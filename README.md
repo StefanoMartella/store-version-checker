@@ -5,7 +5,6 @@ A FastAPI-based microservice that fetches the latest version of an app from the 
 ## Features
 - Retrieve the latest app version from the **Google Play Store** using `google-play-scraper`
 - Retrieve the latest app version from the **Apple App Store** using the iTunes Search API
-- Hosted on **Render** with **Docker**
 
 ## API Endpoints
 ### Get Latest Version
