@@ -11,13 +11,13 @@ A FastAPI-based microservice that fetches the latest version of an app from the 
 ### Get Latest Version
 #### Request:
 ```
-GET /latest-version/{platform}/{app_id}
+GET /latest-version/{platform}/{package_name}
 ```
 
 | Parameter  | Type   | Description |
 |------------|--------|-------------|
 | `platform` | string | `android` or `ios` |
-| `app_id`   | string | Package name (Android) or numeric App Store ID (iOS) |
+| `app_id`   | string | Package name |
 
 #### Example Usage
 - **Android:** `GET /latest-version/android/<it.package.name>`
