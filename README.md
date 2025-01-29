@@ -34,8 +34,8 @@ GET /latest-version/{platform}/{package_name}
 ## Installation & Setup
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/playstore-version-checker.git
-cd playstore-version-checker
+git clone https://github.com/StefanoMartella/store-version-checker
+cd store-version-checker
 ```
 
 ### 2. Install Dependencies
@@ -51,12 +51,12 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 ### 4. Run with Docker
 #### Build the Docker Image:
 ```bash
-docker build -t playstore-api .
+docker build -t store-version-checker .
 ```
 
 #### Run the Container:
 ```bash
-docker run -p 8000:8000 playstore-api
+docker run -p 8000:8000 store-version-checker
 ```
 
 ## License
