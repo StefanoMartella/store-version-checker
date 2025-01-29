@@ -1,6 +1,6 @@
 # Play Store & App Store Version Checker API
 
-A FastAPI-based microservice that fetches the latest version of an app from the Google Play Store and Apple App Store using package names (Android) and app IDs (iOS).
+A FastAPI-based microservice that fetches the latest version of an app from the Google Play Store and Apple App Store using package names.
 
 ## Features
 - Retrieve the latest app version from the **Google Play Store** using `google-play-scraper`
